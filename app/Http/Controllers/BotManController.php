@@ -40,7 +40,7 @@ class BotManController extends Controller
           $botman->ask('Hi, What is your name ?', function(Answer $answer) {
           $name = $answer->getText();
 
-          $this->say('Nice to meet you'.$name.". Please wait for few moments until we are back.");
+          $this->say('Nice to meet you '.$name.". Please wait for few moments until we are back.");
         });
 
       }
